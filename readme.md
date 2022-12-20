@@ -5,6 +5,8 @@
 
 S4Notes is a web application for sending [sensitive] notes to others. Each note has a **maximum number of views**, an **expiry duration**, and, optionally, an **encryption passphrase**. It chooses a random-looking URL for each note unless you set a custom one. 
 
+![A sample recording that shows how S4Notes works](./sample-recording.gif)
+
 S4Notes is a single PHP file you can copy to any directory on your website, and it starts working without the need for configuration, database, etc. More about the installation is below.
 
 
