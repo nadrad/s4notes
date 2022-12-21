@@ -31,24 +31,21 @@ There are many applications with more or less similar functionalities. Besides t
 Using something like this increases the security of the sensitive content you need to send to others, but nothing can make it completely secure; e.g., the recipient may just copy the content and store it in a plain text file on their desktop or write it on a sticky note and put on the corner of their monitor. There may not be much you can do about it, but you can at least remove a few other risks by using an application like this.
 
 
-## Simple installation
+## Installation
 
-OK, it's really easy:
+For a simple installation, this is all you need to do:
 
 1. Create a subdomain (e.g., `notes.example.com`) or a directory (e.g., `example.com/notes`) for the application.
 1. Copy the `index.php` file from this repository to the target directory on your server.
 1. Optionally, add the `favicon.ico` and `vault.png` files to the same directory.
-1. Open the web page -- it will ask you to set a master password, and then it will be ready for use.
+1. Open the web page — it will ask you to set a master password, and then it will be ready for use.
 
 Trouble-shooting:
 
 1. If you see the application's source code when opening the page, it means that PHP files are not interpreted. Check to ensure PHP is installed on your server, and your web server knows what to do with PHP files.
 1. Hmm... I can't think of anything else!
 
-
-## Advanced installation 
-
-Well, if you know what you're doing, it's probably best to clone this repository on your server. It's also a good idea to set a scheduled job to update it once a week or so, to always use the latest version.
+For more advanced users, instead of the method above, it's probably best to clone this repository on your server and set up a scheduled task to update it every week or so.
 
 
 ## To Do
