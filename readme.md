@@ -40,15 +40,18 @@ For a simple installation, this is all you need to do:
 1. Optionally, add the `favicon.ico` and `vault.png` files to the same directory.
 1. Open the web page — it will ask you to set a master password, and then it will be ready for use.
 
-Trouble-shooting:
+Troubleshooting:
 
 1. If you see the application's source code when opening the page, it means that PHP files are not interpreted. Check to ensure PHP is installed on your server, and your web server knows what to do with PHP files.
+1. The application needs to have write access to its directory. Otherwise, it will give you an error and some information on how to fix it.
 1. Hmm... I can't think of anything else!
 
 For more advanced users, instead of the method above, it's probably best to clone this repository on your server and set up a scheduled task to update it every week or so.
 
 
 ## To Do
+
+These are the things I'm probably going to do for this application:
 
 * Check to make sure it works with older versions of PHP
 * Change the master password from the web
