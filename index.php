@@ -9,6 +9,7 @@
 	(
 		"Content-Security-Policy: "
 		."default-src 'none'; "
+		."img-src 'self'; "
 		."style-src 'unsafe-inline'; "
 		."block-all-mixed-content "
 	);
